@@ -4,7 +4,6 @@
 		<child name="Test1" key="{11A99171-C498-4CE0-893B-4DA17EB29CFB}" path="Test1.tcKDTest" />
 		<child name="Test2" key="{40F8EC4B-10E1-4F9D-8839-B090B3C01A13}" path="Test2.tcKDTest" />
 		<child name="Test3" key="{A038F3AB-38C7-4332-9F76-4F4384F62B07}" path="Test3.tcKDTest" />
-		<child name="Test4" key="{56154165-07BB-4335-8ABB-B0D9B7F8429B}" path="Test4.tcKDTest" />
 		<child name="Test5" key="{C05F1F90-55CD-4F41-B689-DF3AAE34ABD2}" path="Test5.tcKDTest" />
 	</children>
 </Root>

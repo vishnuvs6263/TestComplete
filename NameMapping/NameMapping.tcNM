@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{0C39A3D0-8ADD-465F-AF47-EF9F08FC3533}">
+				<TypeInfo Item0="{5B1BE399-170B-46F5-BA84-B4C717BBFD80}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{316980D3-5AD8-4E19-8865-B5FA5C1F9C1A}">
+						<TypeInfo Item0="{BADEDE39-96F9-44C7-AC3D-CAA077319381}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageIndoZambiaBank" Key="{1AB8774C-F714-43DC-8268-555B2EAD35D4}">
+								<Image FileName="-1747517909" Left="8" Top="79" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{AC6379A9-6566-45BA-B795-C37DCDEC6422}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="http://41.215.180.245:8085/Retail/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelHi" Key="{195102C5-6A95-4433-A5FD-F2D1E9532FAE}">
+										<Image FileName="-1747517909" Left="262" Top="183" Right="405" Bottom="204" />
+										<TypeInfo Item0="{669EC3E8-3FFA-4C37-9833-242BED377437}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Hi,&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div/div/div/div/div[contains(@class, &apos;font-weight-600&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[2]/div/div/div//div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageMobileLogo" Key="{9381CB78-5733-40CB-A1D1-A8F91ABD5917}" ExtendedFind="True">
+										<Image FileName="1597087799" Left="240" Top="211" Right="326" Bottom="311" />
+										<TypeInfo Item0="{FAC19AAA-5EFE-4EF7-8A0A-94F05CD2490D}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Image" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="login_mobile_fb466593_svg" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="textboxUsername" Key="{E4E59927-F74A-4EC8-B16C-3507CDCEAF7F}">
+										<Image FileName="1597087799" Left="123" Top="337" Right="443" Bottom="382" />
+										<TypeInfo Item0="{0D686E96-14CA-43AC-95EC-433E88DAF8EB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLogin" Key="{68AD811C-6981-496F-802A-681B24B0BD1E}">
+										<Image FileName="-1040744993" Left="123" Top="535" Right="435" Bottom="580" />
+										<TypeInfo Item0="{F54DD4D5-4EDE-407F-A438-210F7C218711}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;neo-btn-new-design&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDashboard" Key="{1CA52AFB-527E-4EFA-9629-ECCE74A19D2F}">
+										<Image FileName="-616911222" Left="260" Top="361" Right="339" Bottom="379" />
+										<TypeInfo Item0="{669EC3E8-3FFA-4C37-9833-242BED377437}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;Dashboard&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div/div/a/h2" />
+											</Selector>
+											<Selector>
+												<Value Value="//a/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{87726629-5B0C-4DB8-ADF7-117FBAFA3B8F}">
+										<Image FileName="-2102422833" Left="123" Top="421" Right="443" Bottom="466" />
+										<TypeInfo Item0="{0D686E96-14CA-43AC-95EC-433E88DAF8EB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Test@1234&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelHi2" Key="{10D17EEC-651B-4BF0-8416-34E83E2EC2E4}">
+										<Image FileName="-234755455" Left="262" Top="183" Right="405" Bottom="204" />
+										<TypeInfo Item0="{669EC3E8-3FFA-4C37-9833-242BED377437}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Hi,&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div//div/div/div/div/div[contains(@class, &apos;font-weight-600&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Layout&apos;]//div[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div[2]/div/div/div//div[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{7A428AAB-6046-4ECD-9A18-F8EBBA85F3E9}">
+								<Image FileName="925360583" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{660B2FA7-8939-4AA6-BFD0-81DE07391F6B}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{35786EC6-CBAA-4351-9DA0-7CD7AAA77EE7}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{5707F692-4ABF-4937-9878-D62C39007E03}">
+								<Image FileName="-1119907488" Left="0" Top="0" Right="1366" Bottom="40" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{A97EA3C6-64BC-4400-806E-B0B03A733C2D}">
+										<Image FileName="-1119907488" Left="438" Top="0" Right="991" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{FB576789-BC10-4D49-B97D-A9F1B739047C}">
+												<Image FileName="-1119907488" Left="440" Top="0" Right="953" Bottom="40" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Running applications" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{824E9A33-2D35-48DE-B470-1B0A234E3295}">
+														<Image FileName="-1119907488" Left="440" Top="0" Right="953" Bottom="40" />
+														<TypeInfo Item0="{AEC61E40-9514-4D11-8865-2A7D6999966F}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Running applications" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{316980D3-5AD8-4E19-8865-B5FA5C1F9C1A}">
+			<Child Name="pageIndoZambiaBank" Owner="{1AB8774C-F714-43DC-8268-555B2EAD35D4}">
+				<Child Name="panelHi" Owner="{195102C5-6A95-4433-A5FD-F2D1E9532FAE}" />
+				<Child Name="imageMobileLogo" Owner="{9381CB78-5733-40CB-A1D1-A8F91ABD5917}" />
+				<Child Name="textboxUsername" Owner="{E4E59927-F74A-4EC8-B16C-3507CDCEAF7F}" />
+				<Child Name="buttonLogin" Owner="{68AD811C-6981-496F-802A-681B24B0BD1E}" />
+				<Child Name="textnodeDashboard" Owner="{1CA52AFB-527E-4EFA-9629-ECCE74A19D2F}" />
+				<Child Name="passwordboxPassword" Owner="{87726629-5B0C-4DB8-ADF7-117FBAFA3B8F}" />
+				<Child Name="panelHi2" Owner="{10D17EEC-651B-4BF0-8416-34E83E2EC2E4}" />
+			</Child>
+			<Child Name="BrowserWindow" Owner="{7A428AAB-6046-4ECD-9A18-F8EBBA85F3E9}" />
+		</Child>
+		<Child Name="explorer" Owner="{35786EC6-CBAA-4351-9DA0-7CD7AAA77EE7}">
+			<Child Name="wndShell_TrayWnd" Owner="{5707F692-4ABF-4937-9878-D62C39007E03}">
+				<Child Name="ReBarWindow32" Owner="{A97EA3C6-64BC-4400-806E-B0B03A733C2D}">
+					<Child Name="MSTaskSwWClass" Owner="{FB576789-BC10-4D49-B97D-A9F1B739047C}">
+						<Child Name="MSTaskListWClass" Owner="{824E9A33-2D35-48DE-B470-1B0A234E3295}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
